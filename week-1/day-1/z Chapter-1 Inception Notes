@@ -1,0 +1,95 @@
+NAMASTE REACT JS
+
+Mission - Zero to Hero in React JS in 8 weeks
+Document - https://beta.reactjs.org/apis/react/createElement 
+CDN Link - https://reactjs.org/docs/cdn-links.html 
+
+Chapter 01 - Inception 
+
+Tips:
+React element is a object
+We can use react in other big projects 
+It take some time for react to get rendered. Because the CDN link api needs to be fetched.
+React wanted to write HTML, CSS inside JS, then react came up with React/ReactDom (React.createElement) api, then JSX
+
+
+1. Library Vs Framework
+React JS	Angular
+
+2. Tools
+Google chrome
+VS Code
+Extensions:
+    Better Comments
+    Bracket Pair Colorization
+    ES7
+    GitLens -> for git
+    Prettier ->. Code format
+    Viscode-icons
+    Tailwind CSS IntelliSense
+    HTML CSS Support
+    CSS Peek 
+    Prettify JSON
+    Tabnine AI Autocomplete
+
+3. Home work
+Read about emmet - gives code boilerplate
+CDN - content delivery network
+Cross origin
+DOM Manipulation
+Difference between async / differ (watch video - akshay)
+
+4. Shortest program
+JS -> empty file -> window
+React -> index.html -> CDN Links
+
+5. Console
+Type for React -> React / ReactDOM (access to all api)
+Type for JS -> document (access to all api)
+
+6. CDN
+Gives access to React DOM
+
+7. React Popularity
+React API
+
+8. Can we have multiple root? -> no, most app has one root and one render method.
+
+HOMEWORK
+Emmet - Emmet is a free add-on for your text editor. It allows you to type shortcuts that are then expanded into full pieces of code. By using Emmet, developers type less, they save both on keystrokes and time.
+
+Library	Framework
+Flexible	Structured
+Reusable functions	Reusable code that can be modified
+React JS	Angular, Vue
+
+React CDN combination reduces the distance between the server and the user to accelerate the delivery of library assets so that webpages would load faster.
+Both React and ReactDOM are available over a CDN.
+
+cross origin resource sharing
+Requesting data from One url to another url
+https://www.youtube.com/watch?v=4KHiSt0oLJ0
+
+async vs defer attributes in Javascript 
+ External scripts -> async
+Multiple scripts -> defer (goes in order)
+
+Why is React known as React?
+React was developed for applications (Facebook) that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app's data, the view should “react” or change with those user events.
+
+The library reacts to the state changes.
+
+What is diference between React and ReactDOM
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+How JavaScript updates the DOM?
+JavaScript uses DOM API to updates and manipulates DOM nodes. The DOM API is just a collection of objects that JavaScript uses to manipulate the DOM. The manipulation here means CRUD(create, read, update, and delete) operations in DOM nodes.
+
+What is difference between react.development.js and react.production.js files via CDN?
+Both React and ReactDOM are available over a CDN.
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+The versions above are only meant for development, and are not suitable for production. Minified and optimized production versions of React are available at:
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
