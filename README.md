@@ -18,7 +18,7 @@ This repository has the chapters of Namaste React Live course by Akshay Saini.
 - **Chapter 13 - Time for the test -** Unit testing using React testing Library (Jest)
 
 ## Folder Structure
-**Coding assignment**: The folder coding assignment contains a working assignment code which can be run in browser.
+**React JS Code**: The folder React JS Code contains the working code which can be run in browser.
 
-**Theory assignment**: The folder theory assignment contains a pdf version of the assignment.
+**React JS Notes**: The folder React JS Notes contains the documents of the React JS.
 
